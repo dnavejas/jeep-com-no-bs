@@ -1,12 +1,24 @@
+body{
+	font-family: roboto;
+	color:#000;
+	font-size: 1rem;
+}
 .nav-bar{
 	display: flex;
 	flex-direction: row;
 	background-color: black;
 	color: white;
+	align-items: center;
+	width: 100%;
 }
 .jeep-logo{
-	background-image: url(jeep-logo.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
+	height: 1.78571rem;
+	width: auto;
+	max-width: 100%;
+}
+.no-decor{
+	text-decoration: none;
+}
+.white-text{
+	color: white;
 }
