@@ -1,0 +1,12 @@
+.nav-bar{
+	display: flex;
+	flex-direction: row;
+	background-color: black;
+	color: white;
+}
+.jeep-logo{
+	background-image: url(jeep-logo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
