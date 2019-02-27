@@ -1,3 +1,9 @@
+html{
+	box-sizing:border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
 body{
 	font-family: roboto;
 	color:#000;
@@ -36,9 +42,26 @@ body{
 	color: white;
 }
 .second-container{
-	width: 100%;
-	height:100%;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 20px;
+	/*border: solid 2px red;*/
+	width: 100vw;
+	height:100vh;
 	position: absolute;
 	left: 0;
 	background-image: url(https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/hero/adaptive-hero/Jeep_MotorTrend2018_Wrangler_BHP_Phablet_V2.jpg.image.1000.jpg);
+}
+.motortrend{
+	width: auto;
+	height: auto;
+	display: block;
+	max-width: 50%;
+	margin-right: 20px;
+}
+.medium{
+	font-size: medium;
+}
+.text-center{
+	text-align: center;
 }
