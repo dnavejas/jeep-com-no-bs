@@ -1,15 +1,20 @@
 .second-container{
-	background-image: url("tablet-jeep-image.jpg");
-	background-size: contain;
+	background-image: url("mobile-jeep-image.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
 	display: flex;
 	flex-direction: column;
 	padding: 20px 20px;
 	width: 100vw;
-	height:90vh;
-	position: absolute;
+	height:80vh;
+	position: relative;
 	left: 0;
+	align-items: center;
+	background-position: bottom center;
 }
 .hide-xs-mobile{
+	display: none;
+}
+.hide-s-mobile{
 	display: none;
 }
