@@ -10,3 +10,6 @@
 	position: absolute;
 	left: 0;
 }
+.hide-xs-mobile{
+	display: none;
+}
