@@ -1,0 +1,19 @@
+.space{
+	align-self: space-around;
+}
+.menu-button{
+	margin-right: 10px;
+}
+.second-container{
+	background-image: url("mobile-jeep-image.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 20px;
+	width: 100vw;
+	height:80vh;
+	position: absolute;
+	left: 0;
+	align-items: center;
+}
