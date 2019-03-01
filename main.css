@@ -75,24 +75,23 @@ a{
 }
 .third-container {
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
+	justify-content: center;
+	width:100vw;
 	flex-wrap: wrap;	
 }
 .jeep-vehicles {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.responsive-images{
-	max-width: 30%;
-	width: 100%;
 	flex:1;
-	display: block;
+	/*align-items: center;
+	justify-content: center;*/
 }
+/*.responsive-images{
+	max-width: 80vw;
+	width: 100%;
+}*/
 .fourth-container{
 	background-color: #D1D1D1;
-	padding: 20px 20px;
+	padding: 20px 20px 0px;
 	display: flex;
 	flex-direction: column;
 }
@@ -101,11 +100,11 @@ a{
 	width: 100%;
 	object-position: 50% 50%;
 	object-fit: cover;
-	
+	max-height: 16vh;	
 }
 .black-box{
 	background-color: black;
-	padding: 20px 20px;
+	padding: 20px 30px 20px 20px;
 }
 .grey-box{
 	background-color: #212121;
@@ -113,4 +112,5 @@ a{
 	width: 100%;
 	padding: 5px;
 	margin-bottom: 20px;
+	font-size: 13px;
 }
