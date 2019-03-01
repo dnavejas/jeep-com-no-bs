@@ -85,10 +85,10 @@ a{
 	/*align-items: center;
 	justify-content: center;*/
 }
-/*.responsive-images{
-	max-width: 80vw;
-	width: 100%;
-}*/
+.responsive-images{
+	max-width: 200px;
+	/*width: ;*/
+}
 .fourth-container{
 	background-color: #D1D1D1;
 	padding: 20px 20px 0px;
