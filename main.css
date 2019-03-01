@@ -82,12 +82,9 @@ a{
 .jeep-vehicles {
 	display: flex;
 	flex:1;
-	/*align-items: center;
-	justify-content: center;*/
 }
 .responsive-images{
 	max-width: 200px;
-	/*width: ;*/
 }
 .grey-container{
 	background-color: #D1D1D1;
@@ -119,4 +116,8 @@ a{
 	padding: 30px 20px;
 	font-weight: 700;
 	font-size: 1rem;
+}
+.kbb-image{
+	max-width: 40%;
+	align-self: center;
 }
