@@ -90,3 +90,27 @@ a{
 	flex:1;
 	display: block;
 }
+.fourth-container{
+	background-color: #D1D1D1;
+	padding: 20px 20px;
+	display: flex;
+	flex-direction: column;
+}
+.last-images{
+	max-width: 100%;
+	width: 100%;
+	object-position: 50% 50%;
+	object-fit: cover;
+	
+}
+.black-box{
+	background-color: black;
+	padding: 20px 20px;
+}
+.grey-box{
+	background-color: #212121;
+	text-align: right;
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 20px;
+}
