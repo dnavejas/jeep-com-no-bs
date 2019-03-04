@@ -74,6 +74,7 @@ h4{
 	margin-top: 10px;
 	display: flex;
 	flex-direction: row;
+	border-radius: 5px;
 }
 .font-10px {
 	font-size: 8px;
@@ -131,4 +132,11 @@ h4{
 }
 .search-bar{
 	background-color: white;
+	border: none;
+	margin: 5px;
+	display: flex;
+	height: 42px;
+	font-size: 12px;
+	align-items: center;
+	border-radius: 5px;
 }
