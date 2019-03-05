@@ -18,3 +18,12 @@
 	align-items: center;
 	background-position: bottom center;
 }
+.hide-xs-mobile{
+	display: none;
+}
+.hide-s-mobile{
+	display: none;
+}
+.hide-tablet{
+	display: none;
+}

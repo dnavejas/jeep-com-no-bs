@@ -81,7 +81,7 @@ h4{
 }
 .third-container {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	width:100%;
 	flex-wrap: wrap;	
 }
@@ -90,7 +90,7 @@ h4{
 	flex:1;
 }
 .responsive-images{
-	max-width: 200px;
+	max-width: 175px;
 }
 .msrp-font{
 	    font-size: .57143rem;
@@ -107,10 +107,15 @@ h4{
 	object-position: 50% 50%;
 	object-fit: cover;
 	max-height: 16vh;	
+	margin-bottom: 0px;
 }
 .black-box{
+	margin-top: 0px;
 	background-color: black;
 	padding: 20px 30px 20px 20px;
+	max-width: 100%;
+	position: relative;
+	top: -5px;
 }
 .grey-box{
 	background-color: #212121;
@@ -119,6 +124,8 @@ h4{
 	padding: 5px;
 	margin-bottom: 20px;
 	font-size: 13px;
+	position: relative;
+	top: -5px;
 }
 .fifth-container{
 	background-color: #E7E7E7;

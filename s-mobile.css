@@ -1,4 +1,7 @@
-.hide-xs-mobile{
+.hide-s-mobile{
+	display: none;
+}
+.hide-tablet{
 	display: none;
 }
 .second-container{
